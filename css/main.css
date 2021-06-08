@@ -1,0 +1,62 @@
+html {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #E8E8E8;
+}
+
+.highlight {
+  font-size: 20px;
+  background-color: #FFF44F;
+}
+
+p {
+  font-size: 30px
+}
+
+strong {
+  font-size: 38px;
+}
+
+.marker{
+  font-family: 'Permanent Marker', cursive;
+}
+
+#vision-board {
+  width: 1200px;
+  height: 850px;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  background: url('../img/background.png');
+  background-size: cover;
+}
+
+.block {
+  width: 400px;
+}
+
+.small-block {
+  height: 210px;
+}
+
+.large-block {
+  height: 430px;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
