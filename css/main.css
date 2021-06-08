@@ -10,47 +10,49 @@ body {
 }
 
 .highlight {
-  font-size: 20px;
+  font-size: 18px;
   background-color: #FFF44F;
-}
-
-p {
-  font-size: 30px
+  padding: 5px 15px;
 }
 
 strong {
   font-size: 38px;
+  text-transform: none;
+  line-height: 38px;
 }
 
 .marker{
   font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
 }
 
 #vision-board {
   width: 1200px;
   height: 850px;
+  margin: 50px auto;
   display: flex;
   flex-flow: row wrap;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   background: url('../img/background.png');
   background-size: cover;
 }
 
 .block {
   width: 400px;
+  box-sizing: border-box;
 }
 
 .small-block {
   height: 210px;
+  padding: 20px 40px;
 }
 
 .large-block {
   height: 430px;
-}
-
-.left {
-  text-align: left;
+  padding: 70px 40px;
 }
 
 .center {
@@ -59,4 +61,26 @@ strong {
 
 .right {
   text-align: right;
+}
+
+.light-bg {
+  background-color: #FFFFFF;
+}
+
+.dark-bg {
+  background-color: #3B3B3B;
+  color: #FFFFFF;
+}
+
+.title {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.top-padding {
+  padding-top: 40px;
+}
+
+.piggy {
+  padding-top: 20px;
 }
